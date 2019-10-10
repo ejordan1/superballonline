@@ -12,13 +12,15 @@ class Dashboard extends Component {
     const { projects } = this.props;
     
     return (
+      
       <div className="dashboard container">
+      <iframe  frameborder="100" src="https://itch.io/embed-upload/1706746?color=333333" allowfullscreen="" width="1366" height="768"></iframe>
         <div className="row">
-          <div className="col s12 m6">
-            <ProjectList projects={projects} />
+          <div className="col s12 m12">
+            <ProjectList maxWidth="800" projects={projects} />
           </div>
           <div className="col s12 m5 offset-m1">
-            <Notifications />
+            {/* <Notifications /> */}
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ const ProjectDetails = (props) => {
           </div>
           <div className="card-action grey lighten-4 grey-text">
             <div>Posted by {project.authorFirstName} {project.authorLastName}</div>
-            <div>2nd September, 2am</div>
+            <div></div>
           </div>
         </div>
       </div>
@@ -23,7 +23,7 @@ const ProjectDetails = (props) => {
   } else {
     return (
       <div className="container center">
-        <p>Loading project...</p>
+        <p>Loading post...</p>
       </div>
     )
   }
